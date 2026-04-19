@@ -1,3 +1,5 @@
+import founderPhoto from './photo.jpeg'
+
 // ╔══════════════════════════════════════════════════════════════╗
 // ║  NUTRACEUTRA WEBSITE — CONTENT FILE                         ║
 // ║  All website text is centralized here for easy editing.     ║
@@ -248,7 +250,7 @@ export const aboutCompany = {
 export const founder = {
   name: 'Dr. Ajay Srivastava, DVM, PhD',
   tagline: 'Strategic Advisor | Scientific Innovator | Entrepreneur',
-  photo: null, // TODO: Add founder photo path e.g. "/images/founder.jpg"
+  photo: founderPhoto,
   initials: 'AS',
   bio: `Dr. Srivastava is a dually trained Doctor of Veterinary Medicine (DVM) and PhD in Medical Pharmacology, with advanced expertise in Neuropharmacology, Nutrition, and Clinical Pharmacology. With onsite executive training from Harvard Business School in Leading Product Innovation, he bridges the gap between laboratory science and global business strategy.`,
   highlights: [
@@ -279,7 +281,7 @@ export const founder = {
     },
   ],
   socialLinks: {
-    linkedin: '#', // TODO: Add LinkedIn profile URL
+    linkedin: 'https://www.linkedin.com/in/ajay-srivastava-dvm-ms-phd/',
     email: '#', // TODO: Add email address
     twitter: '#', // TODO: Add Twitter/X profile URL (remove if not needed)
   },

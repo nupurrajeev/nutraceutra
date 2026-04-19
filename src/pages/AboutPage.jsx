@@ -122,7 +122,7 @@ export default function AboutPage() {
             <ScrollReveal className="lg:col-span-2 flex flex-col items-center text-center">
               <div className={`w-44 h-44 rounded-full bg-gradient-to-br ${GRAD} flex items-center justify-center mb-6 shadow-card-hover overflow-hidden`}>
                 {founder.photo ? (
-                  <img src={founder.photo} alt={founder.name} className="w-full h-full object-cover" />
+                  <img src={founder.photo} alt={founder.name} className="w-full h-full object-cover object-[center_30%]" />
                 ) : (
                   <span className="font-serif font-bold text-5xl text-secondary">{founder.initials}</span>
                 )}
