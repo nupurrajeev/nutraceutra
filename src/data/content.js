@@ -47,6 +47,11 @@ export const pageMeta = {
     description:
       'Ready to accelerate your innovation? Contact the Nutraceutra team to discuss your next breakthrough.',
   },
+  blog: {
+    title: 'Blogs & Insights | Nutraceutra',
+    description:
+      'Science-backed insights on nutraceuticals, pet health, and functional wellness — authored by Dr. Ajay Srivastava, DVM, PhD.',
+  },
 }
 
 // ─── HERO ─────────────────────────────────────────────────────────────────────
@@ -398,6 +403,83 @@ export const contactInfo = {
   twitter: '#', // TODO: Add Twitter/X URL (remove entry if not applicable)
   calendlyLink: '#', // TODO: Add Calendly/booking link (remove entry if not applicable)
 }
+
+// ─── BLOGS ────────────────────────────────────────────────────────────────────
+// Latest articles first. Source: linkedin.com/in/ajay-srivastava-dvm-ms-phd/
+export const blogs = [
+  {
+    title: 'When Iron Feeds the Wrong Bacteria',
+    snippet:
+      'Excess iron in pet diets can remain unabsorbed in the gut, where it fuels harmful bacteria like E. coli and Salmonella. Iron is not just a nutrient — it is also a growth substrate for pathogens that shift the microbiome and drive oxidative stress over time.',
+    date: 'April 20, 2026',
+    linkedinUrl: 'https://www.linkedin.com/pulse/when-iron-feeds-wrong-bacteria-ajay-srivastava-dvm-ms-phd-3nvwc',
+    tags: ['Pet Health', 'Gut Microbiome', 'Nutrition Science'],
+  },
+  {
+    title: 'Always Hungry or Under-Nourished? YOUR PET.',
+    snippet:
+      'Many dogs beg constantly despite being fed adequate calories on a schedule. Dr. Srivastava distinguishes between learned attention-seeking and genuine nutritional dissatisfaction — because calories alone do not guarantee a thriving pet.',
+    date: 'February 5, 2026',
+    linkedinUrl: 'https://www.linkedin.com/pulse/always-hungry-under-nourished-your-pet-ajay-srivastava-dvm-ms-phd-vipyc',
+    tags: ['Pet Health', 'Nutrition', 'Behavior'],
+  },
+  {
+    title: 'The 70/30 Paradox: We Are 70% Water, Yet We Chase the Other 30%',
+    snippet:
+      'Holiday feasts focus intensely on proteins, fats, and supplements — the "dry mass" — while overlooking a fundamental biological reality: digestion is hydrolysis, and the 70% we are made of matters far more than the 30% we obsess over.',
+    date: 'December 25, 2025',
+    linkedinUrl: 'https://www.linkedin.com/pulse/7030-paradox-we-70-water-yet-chase-other-30-srivastava-dvm-ms-phd-ljiyc',
+    tags: ['Nutrition Science', 'Hydration', 'Pet Health'],
+  },
+  {
+    title: "Confident Dogs (and Us) Aren't Born — They're Raised",
+    snippet:
+      'Humans and dogs share far more physiology and behavioral wiring than we realize. Aggressive or anxious behavior in dogs is rarely about breed — it is almost always about insufficient social exposure, and it is entirely correctable.',
+    date: 'December 22, 2025',
+    linkedinUrl: 'https://www.linkedin.com/pulse/confident-dogs-us-arent-born-theyre-raised-srivastava-dvm-ms-phd-yygrc',
+    tags: ['Pet Health', 'Animal Behavior', 'Training'],
+  },
+  {
+    title: 'The "War" on Fresh Food Science vs Kibble',
+    snippet:
+      'When researchers found that dogs on fresh, gently-cooked diets had significantly lower blood levels of Advanced Glycation End-products (AGEs) than kibble-fed dogs, the industry response was a media blast rather than science — which tells you everything.',
+    date: 'December 4, 2025',
+    linkedinUrl: 'https://www.linkedin.com/pulse/war-fresh-food-science-vs-kibble-ajay-srivastava-dvm-ms-phd-8mwnc',
+    tags: ['Pet Nutrition', 'Pet Food', 'Evidence-Based'],
+  },
+  {
+    title: 'Shatavari — How Much of It Is Real, and How Much Is Reinvented?',
+    snippet:
+      'Examining what modern science actually supports about Asparagus racemosus — separating centuries-old Ayurvedic tradition from today\'s marketing claims. Sample sizes are small, durations short, and most data comes from Indian populations, raising real questions about generalizability.',
+    date: 'October 21, 2025',
+    linkedinUrl: 'https://www.linkedin.com/pulse/shatavari-how-much-real-reinvented-ajay-srivastava-dvm-ms-phd-k0ukc',
+    tags: ['Botanicals', "Women's Health", 'Evidence-Based'],
+  },
+  {
+    title: "Pet Food Labels Aren't as Straightforward as They Look",
+    snippet:
+      'Pet food labels can be even more confusing than supplement labels. A practical guide to decoding ingredient lists and guaranteed analysis panels — what they actually mean, what the regulatory shorthand hides, and how to make smarter choices.',
+    date: 'August 25, 2025',
+    linkedinUrl: 'https://www.linkedin.com/pulse/pet-food-labels-arent-straightforward-look-srivastava-dvm-ms-phd-2b0jc',
+    tags: ['Pet Health', 'Nutrition', 'Consumer Guide'],
+  },
+  {
+    title: "The Longevity Secret Hiding in Your Body (and Your Dog's Too)",
+    snippet:
+      'A landmark 14-year Purdue/Purina study found lean-fed Labrador retrievers lived 1.8 years longer, with delayed onset of osteoarthritis, better insulin sensitivity, and reduced inflammation. The caloric restriction science extends well beyond pets.',
+    date: 'July 30, 2025',
+    linkedinUrl: 'https://www.linkedin.com/pulse/longevity-secret-hiding-your-body-dogs-too-srivastava-dvm-ms-phd-ln12c',
+    tags: ['Longevity', 'Pet Health', 'Nutrition Science'],
+  },
+  {
+    title: 'Welcome to Pet Science by Dr. Ajay — Where Evidence Meets Pet Wellness',
+    snippet:
+      'Introducing a newsletter dedicated to turning peer-reviewed research into real-world guidance for pet owners, veterinarians, and health industry professionals who demand more than marketing.',
+    date: 'June 30, 2025',
+    linkedinUrl: 'https://www.linkedin.com/pulse/welcome-pet-science-dr-ajay-where-evidence-meets-ajay-cvsjc',
+    tags: ['Pet Health', 'Newsletter'],
+  },
+]
 
 export const contactInterests = [
   { value: '', label: 'Select your primary interest' },

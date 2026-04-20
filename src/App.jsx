@@ -8,6 +8,7 @@ import AboutPage from './pages/AboutPage'
 import ServicesPage from './pages/ServicesPage'
 import TrackRecordPage from './pages/TrackRecordPage'
 import ContactPage from './pages/ContactPage'
+import BlogPage from './pages/BlogPage'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -28,6 +29,7 @@ function AnimatedRoutes() {
           <Route path="services" element={<ServicesPage />} />
           <Route path="track-record" element={<TrackRecordPage />} />
           <Route path="contact" element={<ContactPage />} />
+          <Route path="insights" element={<BlogPage />} />
         </Route>
       </Routes>
     </AnimatePresence>

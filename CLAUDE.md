@@ -58,3 +58,10 @@ All editable content lives in `src/data/content.js`. The key exports are:
 ## Deployment
 
 The site deploys to GitHub Pages. The `dist/` folder (output of `npm run build`) is committed and served. `public/CNAME` sets the custom domain to `nutraceutra.com`. `public/404.html` handles client-side routing fallback for direct URL access.
+
+## Blog Updates
+- LinkedIn: https://www.linkedin.com/in/ajay-srivastava-dvm-ms-phd/
+- Blog data: src/data/content.js → blogs array
+- To update blogs: "Check LinkedIn and add new articles"
+- Format: { title, snippet, date, linkedinUrl, tags }
+- Show latest articles first

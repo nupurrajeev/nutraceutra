@@ -8,6 +8,7 @@ const navLinks = [
   { label: 'About', to: '/about' },
   { label: 'Services', to: '/services' },
   { label: 'Track Record', to: '/track-record' },
+  { label: 'Blogs & Insights', to: '/insights' },
   { label: 'Contact', to: '/contact' },
 ]
 
